@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Order a Melongram!</title>
+    <link rel="shortcut icon" type="image" href="img/favicon.png"/>
+  </head>
+    
+  <body>
+      <div class="intro-header">
+          <h1>Order a Melongram</h1>
+          <p>
+            There's no better way to show a loved one you care than with a Melongram.
+          </p>
+          <p>
+            Each Melongram comes with a custom message printed on high-quality cardstock and your choice of a hand-picked, premium melon. 
+          </p>
+      </div>
+      <div class="melon-options">
+          <h2>Melon Options</h2>
+          <p>Choose from one of these melons:</p>
+          <table>
+            <tr>
+                <td>Watermelon</td><td>$1,200.00</td>
+            </tr>
+            <tr>
+                <td>Canteloupe</td><td>$400.00</td>
+            </tr>
+            <tr>
+                <td>Honeydew</td><td>$1,750,00.00</td>
+            </tr>
+           </table>
+      </div>
+      <div>
+        <h2>Order Form</h2>
+        <form>
+            <div>
+                <label for="input-name">Your Name</label>
+                <input type="text" name="name" 
+                       placeholder="Jane Melon Doe" id="input-name">
+            </div>
+            <div>
+                <label for="input-recipient">Who are we sending this to?</label>
+                <input type="text" name="recipient" placeholder="John Melon Doe" id="input-recipient">
+            </div>
+            <div>
+                <label>Choose a melon</label>
+                <select name="melon">
+                    <option value="watermelon">Watermelon</option>
+                    <option value="canteloupe">Canteloupe</option>
+                    <option value="honeydew">Honeydew</option>
+                </select>
+            </div>
+            <div>
+                <label>When should we deliver?</label>
+
+                <input type="radio" name=time value=am>
+                <label>Morning</label>
+
+                <input type="radio" name=time value=pm>
+                <label>Evening</label>
+
+                <input type="radio" name=time value=any>
+                <label>Any time</label>
+            </div>
+            <div>
+                <label>Enter your message:</label>
+                <textarea name="message" placeholder="Type message here."></textarea>
+            </div>
+            <div>
+                <label>Subscribe to our newsletter</label>
+                <input type="checkbox" name="subscribe" value="yes">Yes
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+          
+        </form>
+      
+      </div>
+          
+  </body>
+</html>
+
